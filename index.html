@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- fontawesome script -->
-    <script src="https://kit.fontawesome.com/e657bf9694.js" crossorigin="anonymous"></script>
-    <!-- tailwind script -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      <script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- fontawesome script -->
+  <script src="https://kit.fontawesome.com/e657bf9694.js" crossorigin="anonymous"></script>
+  <!-- tailwind script -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- <script>
     tailwind.config = {
       theme: {
         extend: {
@@ -23,19 +23,43 @@
         }
       }
     }
-  </script
+  </script -->
 </head>
 
 <body>
-    <header>
-
+  <!-- main section -->
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-24">
+    <!-- header section -->
+    <header class="flex pt-10 mb-20">
+      <!-- text content -->
+      <div>
+        <h1 class="text-5xl md:text-7xl font-bold">It's good <br> tea time at The <br> Tea House</h1>
+        <p class="text-gray-500 pt-7 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg mt-6 text-white font-bold"> Explore More  <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i> </button>
+      </div>
+      <!-- image content -->
+      <div class="relative">
+        <!-- image -->
+        <div>
+          <img class="w-full" src="images/banner.png" alt="">
+        </div>
+        <!-- card -->
+        <div class=" absolute flex items-center bg-white px-3 py-2 shadow-xl rounded-lg bottom-4 ml-25 ">
+           <div>
+            <i class="fa-solid fa-star text-3xl text-amber-500"></i>
+          </div>
+           <div class="ml-5">
+            <h1 class="text-2xl font-bold">5.00</h1>
+            <p class="text-gray-500">Trust Pilot Ratings</p>
+           </div>
+        </div>
+      </div>
     </header>
-    <main>
 
-    </main>
-    <footer>
+  </main>
+  <footer>
 
-    </footer>
+  </footer>
 </body>
 
 </html>
